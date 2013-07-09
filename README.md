@@ -75,6 +75,77 @@
 ```
 #### 5.9.尽量避免使用CSS Hack
 > 如需用到推荐使用下面的：
-> #区别属性：
+
+> ###### IE6 : _property:value
+
+> ###### IE6/7 : *property:value
+
+> ###### IE6/7/8/9 : property:value\9
+
+> ###### not IE6 : property//:value
 
 ## CSS样式命名
+
+### 命名尽量使用相应的英文名称或相应的英文缩写如
+> .title (标题)
+> .sidebar (边栏)
+> .search （搜索）
+> 非共用模块的css请加当前页面的名字或缩写以免冲突，如好友页面：
+> .friend_top （好友页面的头部部分）
+> .friend_search （好友页面的搜索部分）
+
+### 名称请用下划线“_”分割，所有英文字母使用小写。如：
+> .friend_l_title
+
+### 对于表示方位、大小的形容词可以使用缩写，如：
+> 如left可写成l，right可写成r，big可写成b等等。
+
+### 推荐CSS命名
+> .container 	容器 
+.header 	页头部分 
+.nav 	导航 
+.subNav	二级导航
+.menu 	菜单 
+.submenu 	子菜单 
+.main 	页面主体 
+.column	栏目
+.title	标题
+.content 	内容部分 
+.footer 	页脚部分 
+.icon	小图标
+.tag 	标签 
+.tab	选项卡
+.list	文章列表
+.note	注释
+.hot	热点
+.download	下载
+.msg或 .message 	提示信息 
+.tips 	小技巧 
+.vote 	投票 
+.friendlink 	友情连接 
+.summary 	摘要 
+.search 	搜索 
+.btn	按钮
+.copyright 	版权信息 
+.branding 	商标 
+.brandingLogo 	LOGO 
+.banner	广告
+.siteinfo 	网站信息 
+.siteinfoLegal 	法律声明 
+.siteinfoCredits 	信誉 
+.joinus 	加入我们 
+.partner 	合作伙伴 
+.service 	服务 
+.regsiter 	注册 
+.login	登陆
+.status 	状态 
+
+### 推荐CSS名称简写索引表
+> 全拼  缩写	说明
+  left	  l   左边
+  right	  r	  右边
+  center	c	  中间
+  big 	  b	  大的
+  small	  s	  小的
+
+
